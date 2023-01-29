@@ -1,0 +1,9 @@
+{
+    "base_template": "latex",
+    "preprocessors": {
+        "900-format-header" : {
+            "type": "header_pdf_exporter.FormatHeaderPreprocessor",
+            "enabled": true
+        }
+    }
+}

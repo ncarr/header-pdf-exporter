@@ -1,0 +1,11 @@
+
+((=- Inherit from the default template. -=))
+((* extends 'latex/index.tex.j2' *))
+
+
+((*- block date -*))
+((*- set nb_date = nb.metadata.get('date', None) -*))
+((* if nb_date is not none *))
+\date{(((nb.metadata.date)))}
+((* endif *))
+((*- endblock date -*))
